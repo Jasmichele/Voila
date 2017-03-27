@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9fc737c68d9c4500973416aa9aef4524" Name="Diagram1">
+        <EntityTypeShape EntityType="VoilaModel.City" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VoilaModel.Client" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VoilaModel.Gender" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VoilaModel.Price" Width="1.5" PointX="3.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="VoilaModel.Proffesion" Width="1.5" PointX="3.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="VoilaModel.Profile" Width="1.5" PointX="6" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="VoilaModel.Speciality" Width="1.5" PointX="3.75" PointY="10.875" IsExpanded="true" />
+        <AssociationConnector Association="VoilaModel.FK_Client_City" ManuallyRouted="false" />
+        <AssociationConnector Association="VoilaModel.FK_Profile_City" ManuallyRouted="false" />
+        <AssociationConnector Association="VoilaModel.FK_Client_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="VoilaModel.FK_Profile_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="VoilaModel.FK_Profile_Price" ManuallyRouted="false" />
+        <AssociationConnector Association="VoilaModel.FK_Profile_Proffesion" ManuallyRouted="false" />
+        <AssociationConnector Association="VoilaModel.FK_Profile_Speciality" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
