@@ -1,4 +1,5 @@
-﻿@Model Web
+﻿@Model WebApplication1.ConnectModel
+
 @{
     ViewBag.Title = "GetByFilter";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -6,3 +7,20 @@
 
 <h2>GetByFilter</h2>
 
+@using (Html.BeginForm("GetByFilter", "Connect", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <div class="form-group">
+            @Html.LabelFor(model => model.)
+
+        </div>
+
+
+
+
+    </div>
+    
+   
+}
