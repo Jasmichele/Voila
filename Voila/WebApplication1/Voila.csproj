@@ -366,6 +366,7 @@
     <Content Include="Views\Specialities\Edit.cshtml" />
     <Content Include="Views\Specialities\Index.cshtml" />
     <Content Include="Views\Connect\GetByFilter.cshtml" />
+    <Content Include="Views\Connect\GetUsers.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
