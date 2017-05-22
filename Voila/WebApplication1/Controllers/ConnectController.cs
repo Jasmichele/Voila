@@ -34,7 +34,7 @@ namespace WebApplication1.Controllers
         {
             string cit = form["City"].ToString();
             string pro = form["Proffesion"].ToString();
-            string pri = form["Prie"].ToString();
+            string pri = form["Price"].ToString();
 
             return RedirectToAction("GetUsers", new { cid = cit, pid = pro, prid = pri });
         }
